@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Navbar Animação em Bolha</title>
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="style.css" />
+    <script defer src="script.js"></script>
+</head>
+
+<body>
+
+    <header class="header">
+        <nav class="nav">
+            <a href="/" class="logo">
+                <img src="assets/logo1.jpeg" alt="Logo Marca">
+            </a>
+            <button class="menu"></button>
+            <ul class="nav-list">
+                <li><a href="#">Sobre</a></li>
+                <li><a href="#">Projetos</a></li>
+                <li><a href="#">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="hero">
+        <div class="format-main">
+            <div class="slider">
+
+                <div class="slides">
+
+                    <!--Radio Buttom-->
+                    <input type="radio" name="radio-btn" id="radio1">
+                    <input type="radio" name="radio-btn" id="radio2">
+                    <!--Fim do Radio Buttom-->
+
+                    <!--Slide Imagem-->
+                    <div class="slide-first">
+                        <img class="font-img" src="assets/diretoria.png" alt="Foto diretoria">
+                    </div>
+                    <div class="slide">
+                        <img class="font-img" src="assets/assessoria.png" alt="Foto diretoria">
+                    </div>
+                    <!--Fim da Slide Imagem-->
+
+                    <!--Navegação altomatica-->
+                    <div class="navegacao-alto">
+                        <div class="ato-btm1"></div>
+                        <div class="ato-btm2"></div>
+                    </div>
+                    <!--Fim da Navegação altomatica-->
+
+                </div>
+
+                <div class="manual-navigation">
+                    <label for="radio1" class="manual-btm"></label>
+                    <label for="radio2" class="manual-btm"></label>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="format-main">
+            <img class="side-image" src="assets/texto5.png" alt="Imagem Lateral">
+        </div>
+    </main>
+
+    <div class="events-container">
+
+        <div class="header-events">
+            <h2>Eventos Realizados</h2>
+        </div>
+        
+        <div class="config-events">
+            <div id="event-properties">
+                <img class="curso-open-modal" id="open-modal" src="assets/eventos/test1.webp" alt="">
+                <h4>Titulo do evento</h4>
+            </div>
+        </div>
+        <div class="config-events">
+            <div id="event-properties">
+                <img class="curso-open-modal" id="open-modal" src="assets/eventos/test1.webp" alt="">
+                <h4>Titulo do evento</h4>
+            </div>
+        </div>
+        <div class="config-events">
+            <div id="event-properties">
+                <img class="curso-open-modal" id="open-modal" src="assets/eventos/test1.webp" alt="">
+                <h4>Titulo do evento</h4>
+            </div>
+        </div>
+        <div class="config-events">
+            <div id="event-properties">
+                <img class="curso-open-modal" id="open-modal" src="assets/eventos/test1.webp" alt="">
+                <h4>Titulo do evento</h4>
+            </div>
+        </div>
+        <div class="config-events">
+            <div id="event-properties">
+                <img class="curso-open-modal" id="open-modal" src="assets/eventos/test1.webp" alt="">
+                <h4>Titulo do evento</h4>
+            </div>
+        </div>
+        <div class="config-events">
+            <div id="event-properties">
+                <img class="curso-open-modal" id="open-modal" src="assets/eventos/test1.webp" alt="">
+                <h4>Titulo do evento</h4>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="modal-geral">
+        <div id="fade" class="hide"></div>
+
+        <div id="modal" class="hide">
+            <div class="modal-header">
+                <h2>Esse é o modal</h2>
+                <button id="close-modal">Fechar</button>
+            </div>
+            <div class="modal-body">
+                <img src="assets/eventos/teste2.webp" alt="">
+                <img src="assets/eventos/teste2.webp" alt="">
+                <img src="assets/eventos/teste2.webp" alt="">
+                <img src="assets/eventos/teste2.webp" alt="">
+                <img src="assets/eventos/teste2.webp" alt="">
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
